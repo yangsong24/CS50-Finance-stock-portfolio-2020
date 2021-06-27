@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stock Quote
+{% endblock %}
+
+{% block main %}
+    <div class="container">
+        <table class="table">
+            <tr>
+                <th>Symbol</th>
+                <th>Shares</th>
+                <th>Share Price</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+            {% for stock in stocks %}
+                <tr>
+                    <td>{{stock.stock}}</td>
+                    <td>{{stock.quantity}}</td>
+                    <td>{{stock.price}}</td>
+                    <td>{{stock.total}}</td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td>CASH</td>
+                <td></td>
+                <td></td>
+                <td>{{cash}}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>TOTAL</strong></td>
+                <td></td>
+                <td></td>
+                <td>{{total}}</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}
