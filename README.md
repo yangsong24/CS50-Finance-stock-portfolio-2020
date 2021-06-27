@@ -6,7 +6,7 @@ You can "buy" or "sell" real time stocks over a virtual platform and maintain a 
 
 
 
-<span style="background-color: #33ccff">Code of honor:</span>
+## Code of honor:
 [https://cs50.harvard.edu/x/2020/honesty/](https://cs50.harvard.edu/x/2020/honesty/)
 I am publishing this code for my own future reference and personal benefits.
 I do not recommend anyone to copy to the same code and encourage CS50 course takers to solve problem sets on their own for the best learning growth and outcome.
